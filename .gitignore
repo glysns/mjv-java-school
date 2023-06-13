@@ -3,3 +3,4 @@ bin/
 *.rar
 .idea/
 /mjv-java-project/mjv-java-project.iml
+*.class
