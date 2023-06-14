@@ -2,5 +2,5 @@
 bin/
 *.rar
 .idea/
-/mjv-java-project/mjv-java-project.iml
+*.iml
 *.class
