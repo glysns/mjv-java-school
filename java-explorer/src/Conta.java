@@ -1,9 +1,20 @@
+import java.time.LocalDate;
+import java.util.Random;
+
 public class Conta {
     private Double saldo = 0.0;
-    private int numero;
+    private int numero = new Random().nextInt();
+    private LocalDate dt = LocalDate.now();
+    public Conta(){
+        numero = new Random().nextInt();
+        //dt = LocalDate.now();
+    }
+    public Conta(int a){
+        this();
+    }
 
-    public void setNumero(int numero) {
-        this.numero = numero;
+    public int getNumero() {
+        return numero;
     }
 
     void sacar(Double  valor){
